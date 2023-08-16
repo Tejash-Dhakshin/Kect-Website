@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(24, 8, 85);
+}
+#img {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin-left: 180px;
+}
+#cont{
+    background-color: aliceblue;
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+input{
+    height: 25px;
+    width: 300px;
+}
+#btn{
+    height: 25px;
+    width: 150px;
+    background-color: green;
+}

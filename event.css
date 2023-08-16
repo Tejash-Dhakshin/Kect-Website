@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(24, 8, 85);
+    color: rgb(255, 153, 0);
+}
+td{
+    text-align: center ;
+}
+tr{
+    height: 48px;
+}

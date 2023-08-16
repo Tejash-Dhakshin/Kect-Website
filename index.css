@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(24, 8, 85);
+
+}
+
+#img {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin-left: 180px;
+}
+
+#nav {
+    display: flex;
+    background-color: rgb(255, 153, 0);
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+    color: aliceblue;
+}
+li {
+    margin-right: 115px;
+    margin-left: 115px;
+    padding: 5px;
+}
+#content-box{
+    display: flex;
+}
+    
+.box1{
+    
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+   border-radius: 30px;
+    background-color: rgb(11, 152, 223);
+
+}
+#content-img{
+    
+    width: 500px;
+    height: 250px;
+    
+}
+#Main{
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#c1,#c2{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#it,#mech,#bio,#ece{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color:  rgb(255, 153, 0);
+}
+.cimj{
+    width: 500px;
+    height: 300px;
+}
+.btn{
+    width: 500px;
+    height: 50px;
+}   
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

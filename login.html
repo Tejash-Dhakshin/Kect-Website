@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script>
+        function validate(){
+            let roll = document.getElementById("roll").value;
+            let pas = document.getElementById("pass").value;
+            if(roll=="21uit021" & pas=="td1234"){
+                location.replace("student.html");
+            }
+            else{
+                alert("use invalid");   
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="img">
+        <img src="/asset/kcet.jpeg" alt="kcet">
+        <img src="asset/new.png" alt="">
+    </div>
+    <div id="cont">
+        <h1>Login</h1><br><br>
+        <form action="student.html">
+            <input type="text" id="roll" placeholder="Roll Number"><br><br>
+            <input type="text" id="pass" placeholder="Password"><br><br>
+            <input type="submit" value="Login" placeholder="login" id="btn" onclick="validate()">
+        </form>
+    </div>
+</body>
+</html>

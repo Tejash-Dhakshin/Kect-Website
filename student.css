@@ -1,0 +1,31 @@
+img{
+    height: 100px;
+    width: 100px;
+}
+#simp {
+    text-align: center;
+    margin-left:auto ;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    color: gold;
+    background-color: blue;
+}
+#info{
+    display: flex;
+    margin: 50px;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#t1,#t2{
+    margin-left:100px ;
+}
+.blue{
+    background-color: rgb(91, 191, 245);
+}
+.yellow{
+    background-color: rgb(249, 247, 130);
+}

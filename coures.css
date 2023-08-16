@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(24, 8, 85);
+    color:  rgb(255, 153, 0);
+}
+#img {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin-left: 180px;
+}
+#staff{
+    display: flex;
+}
+.staf{
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+    width: 400px;
+    margin-left: 20px;
+}
